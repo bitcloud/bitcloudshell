@@ -1,0 +1,7 @@
+alias homesick="$HOME/.homeshick"
+
+alias pgup='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/log/postgres_server.log start'
+alias pgdown='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
+alias myup='mysql.server start'
+alias mydown='mysql.server stop'
